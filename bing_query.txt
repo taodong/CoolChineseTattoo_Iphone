@@ -1,0 +1,26 @@
+ "http://api.microsofttranslator.com/v2/Http.svc/Translate?appId="
++ appId + "&text=" + tobetranslated + "&from=" + fromLang + "&to=" + toLang;
+
+// Simplified Chinese
+http://api.microsofttranslator.com/v2/Http.svc/Translate?appId=<app-id>&text=great&from=en&to=zh-CHS
+
+http://api.microsofttranslator.com/v2/Http.svc/Translate?appId=<app-id>&text=cool&from=en&to=zh-CHS
+
+// Tranditional Chinese
+http://api.microsofttranslator.com/v2/Http.svc/Translate?appId=<app-id>&text=silk&from=en&to=zh-CHT
+
+
+// Get auth token
+https://datamarket.accesscontrol.windows.net/v2/OAuth2-13/
+
+ $grantType    = "client_credentials";
+  $scopeUrl     = "http://api.microsofttranslator.com";
+  
+  <token>
+  
+ <id>
+  
+  grant_type=client_credentials&scope=http://api.microsofttranslator.com&client_id=<client-id>&client_secret=<client-secret>
+  
+curl -X POST -d "grant_type=client_credentials&scope=http://api.microsofttranslator.com&client_id=<client-id>&client_secret=<client-secret>" https://datamarket.accesscontrol.windows.net/v2/OAuth2-13/
+

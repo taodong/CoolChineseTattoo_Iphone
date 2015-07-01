@@ -1,0 +1,14 @@
+Rackspace:
+-- Server name: Kansher --
+Server IP: 50.56.238.106
+Server usage: test
+Sever root password: atx125
+user: tao/4m6QEMio0
+
+mysql root password: shu688
+
+tomcat admin user: daijt/kans273
+
+mysql cth user: cth/cth
+
+

@@ -1,0 +1,12 @@
+
+
+curl "http://localhost:8080/cth/cthlight/iri/gemini/1"
+
+curl "http://localhost:8080/cth/cthlight/ird/gemini/1"
+
+curl "http://api.microsofttranslator.com/v2/Http.svc/Translate?appId=28D8EDBC39C00E3B135DE9CAE64056095E7C741C&text=country&from=en&to=zh-CHT"
+
+curl "http://www.daijt.com/cth/cthlight/iri/god/1"
+
+curl "http://www.daijt.com/cth/cthlight/ard/god/1"
+ 

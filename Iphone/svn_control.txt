@@ -1,0 +1,19 @@
+#### Iphone App SVN Repository ####
+SVN: http://xp-dev.com/svn/CTH-Iphone
+user: daijt
+password: uni222Pic
+
+
+##### Command #####
+
+-- Check Out --
+svn checkout http://xp-dev.com/svn/CTH-Iphone/trunk .
+
+-- Ignore .git --
+svn propset svn:ingore .git .
+
+-- Initial import --
+svn add *
+svn commit . -m "Initial import"
+
+
